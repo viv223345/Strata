@@ -1,10 +1,12 @@
-# Strata
-
 Made by: viv223345
 Repository link: https://github.com/viv223345/Strata
 Total hours so far: 32
 
 - [x] I have a 3D printer or will be getting one before March 21st
+
+# Strata
+
+Strata, named after the geological layers, is a CoreXY 3D Printer, that focuses on speed and quality. It also supports 'extensions' via the extrusions on the right and left sides.
 
 ## Components
 
@@ -16,6 +18,7 @@ Total hours so far: 32
 - **Motion System**: Linear rails
 - **Bed**:
 - **Bed Leveling System**: BLTouch
+- **Hot End**:
 - **Stepper Motors**: 
 - **End Stops**: 
 - **Power Supply**:
@@ -79,13 +82,13 @@ Time Spent: 7 hours
 14:39 Looking at options for joints. Right now, I have:
 	- Inside hidden corner brackets - Best for aesthetics
 	- Right angled corner brackets -
-	- T-Slot nuts + socket head screws - Requires a drill
+	- T-Slot nuts + socket head screws
 	- 90 Degree joining plates - Visible from the outside
 15:00 - 19:00 Break
 19:32 Forgot to note this down - I was thinking earlier, and I had a cool idea - 3D printed extensions that attach to the aluminium extrusions. These can be either functional (to hold nozzles), or purely decorative.
 19:57 I think it might be cool to have **'evolutions'** for my printer - at first it's just a regular printer, but then it prints the parts for it to evolve. I'm thinking a natural design, with monstera leaves (they look cool imo)
 20:08 There are so many joints - I'm confused
-21:30 I've decided to use the **hidden corner brackets**. Thank you <3 [@Anicetus](https://hackclub.slack.com/team/U07GPJ6V3UZ) for the help! Changed dimensions accordingly.
+21:30 I've decided to use the **hidden corner brackets**. Thank you <3 [@Anicetus](https://hackclub.slack.com/team/U07GPJ6V3UZ) for the [help](https://hackclub.slack.com/archives/C08B7LF58TX/p1743785985209589?thread_ts=1743783687.629229&cid=C08B7LF58TX)! Changed dimensions accordingly.
 21:41 - 22:19 Break
 23:04 I've been doing some research. **Klipper** looks like the best option regarding firmware [^1](https://www.reddit.com/r/3Dprinting/comments/rfulww/comment/hog6dtc/) [^2](https://www.reddit.com/r/ender3v2/comments/18j4epk/comment/kdhnzxl/) [^3](https://reprap.org/wiki/Klipper).
 23:15 **BLTouch** looks good for a bed leveling sensor [^1](https://www.reddit.com/r/klippers/comments/17vcerd/comment/k9ateoh/) [^2](https://www.reddit.com/r/Creality/comments/qeg3n4/comment/hhsrk7c/). An authentic one is really expensive though - about 90 AED, compared to a clone - just 20 AED
@@ -97,3 +100,23 @@ Time Spent: 7 hours
 Time Spent: 13 hours
 	- Research: 7 hours
 	- CAD: 6 hours
+
+### 05.04.2025 - Saturday
+
+09:07 I'm going to add the joints and then start with the printhead.
+11:30 Added 4 extension holders to the frame.
+13:07 Submitted PR to the hackclub/infill repo to add my printer to [config.yaml](https://github.com/hackclub/infill/blob/main/doc_update_script/config.yaml).
+
+Time Spent: 4 hours
+	- Research: 2 hours
+	- CAD: 2 hours
+
+### 06.04.2025
+
+12:37 Got a [hotend model](https://grabcad.com/library/550c-hotend-from-china-rough-model-1) from GrabCAD.
+13:59 GrabCAD [5020 fan model](https://grabcad.com/library/5020-blowerfan-gdstime-1) added.
+14:45 Replaced the fan with a [Radial 5015](https://grabcad.com/library/radial-fan-5015-1).
+
+Time Spent: 2 hours
+	- Research: 0 hours
+	- CAD: 2 hours
